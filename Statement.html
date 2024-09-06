@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>JavaScript Statement</h2>
+    <h3>using in break Statement</h3>
+    <p id='demo'></p>
+    <script>
+        /* let text = "";//for loop
+         for(let i = 0; i < 10; i++){
+             if(i==7) break;
+             text += i + "<br>";
+         }
+         document.getElementById("demo").innerHTML=text;*/
+        
+        /*let text = "";
+        let i = 0;              // while loop
+        while (i < 20) {
+            text += i + "<br>";
+            i++;
+            if (i == 14) break;
+        }
+        document.getElementById("demo").innerHTML = text;*/
+
+        let day;
+        switch (new Date().getDay()) {
+            case 0:day = "sunday";
+            break;
+            case 1:day = "monday";
+            break;
+            case 2:day = "tuesday";
+            break;
+            case 3:day = "wednesday";
+            break;
+            case 4:day = "thuesday";
+            break;
+            case 5:day = "friday";
+            break;
+            case 6:day = "satuarday";
+            break;
+        }
+        document.getElementById("demo").innerHTML = "Today is " + day;
+    </script>
+</body>
+
+</html>
