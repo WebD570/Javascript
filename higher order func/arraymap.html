@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>javascript array.map()</h1>
+    <h2>multiply by every element in 10:</h2>
+    <p id="demo"></p>
+    <script>
+        const number = [23,34,56,7];
+        const newArray = number.map(myFunctions)
+        document.getElementById("demo").innerHTML=newArray;
+        function myFunctions(num){
+            return num * 10;
+        }
+    </script>
+</body>
+</html>
