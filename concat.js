@@ -1,2 +1,2 @@
 let string='30';
-console.log(string.concat("Days", "of","javascript"));
+console.log(string.concat(" Days", " of"," javascript"));
