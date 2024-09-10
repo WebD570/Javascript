@@ -1,5 +1,6 @@
 function namesOnly(arr) {
-    return arr.map(i => i.name);
+    return arr.map(i => i.name );
+
   }
   var res = namesOnly([
     {
