@@ -1,12 +1,18 @@
 function makeStrings(arr) {
-    return arr.map(person => {
-        if (person.age >= 18) {
-            return `${person.name} to seen the moveis`;
-        } else {
-            return `${person.name} not seen the movies`;
-        }
-    });
-}
+    const major = [];
+    const minors = [];
+    
+    for (i = 0; i < arr.length; i++) {
+      if (arr[i].age >= 18) {
+        major.push(`${arr[i].name} `);
+      } else {
+        minors.push(`${arr[i].name} `);
+      }
+    }
+    
+    return [major, minors];
+  }
+  
 
 console.log(makeStrings([
     {
