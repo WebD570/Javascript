@@ -5,11 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    ul li{
+        text-align: center;
+        color: burlywood;
+        display: flex;
+        
+        height: auto;
+
+    }
+    .joinbtn{
+        color: aquamarine;
+        text-align: center;
+    }
+</style>
 <body>
     <h1>javascript array.map()</h1>
     <h2>multiply by every element in 10:</h2>
     <p id="demo"></p>
+<form>
+    <fieldset>
+        <ul>
+            <li>firstname</li>
+            <li>lastname</li>
+            <li>password</li>
+            <li>date of birth</li>
+            <button class="joinbtn">submit</button>
+        </ul>
+    </fieldset>
+</form>
     <script>
+        
         const number = [23,34,56,7];
         const newArray = number.map(myFunctions)
         document.getElementById("demo").innerHTML=newArray;

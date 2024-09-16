@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e6e9ee;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+
+}
+
+h1 {
+    color: #622828;
+}
+
+canvas {
+    width: 100%;
+    height: 500px;
+   
+}
+p{
+    color:black;
+    
+    
+}
+.joinbtn:hover{
+    color: green;
+}
+
